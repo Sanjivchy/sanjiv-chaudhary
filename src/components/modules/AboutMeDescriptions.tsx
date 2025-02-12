@@ -15,6 +15,14 @@ export function AboutMe() {
         >
         React.js,
         </LinkPreview>{" "}
+        {" "}<LinkPreview
+          url="https://vuejs.org/"
+          imageSrc="/reactjs.jpg"
+          className="font-bold"
+        >
+        Vue js,
+        </LinkPreview>{" "}
+        
         <LinkPreview
            url="https://react.dev/"
           imageSrc="/reactjs.jpg"

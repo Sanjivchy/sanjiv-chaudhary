@@ -18,7 +18,7 @@ import { SiClerk } from "react-icons/si";
  const Stacks=()=> {
   return (
     <Card title="Tech Stack">
-      <ul className="flex flex-wrap gap-2 items-center w-[80%]">
+      <ul className="flex flex-wrap gap-2 items-center w-[80%] mb-10">
         {StacksList.map((stk) => (
           <li key={stk.title}>
               <Link href={stk.link} className="flex items-center p-2 bg-neutral-950/30 rounded-xl">
@@ -101,6 +101,11 @@ export const StacksList = [
     title: "Clerk",
     link: "https://clerk.com/",
     imagesSrc:  <SiClerk className="w-6 h-6" />,
+ },
+ {
+   title: "Authjs",
+   link: "https://authjs.dev/",
+   imagesSrc:  <TbBrandOauth className="w-6 h-6" />,
  }
 ];
 

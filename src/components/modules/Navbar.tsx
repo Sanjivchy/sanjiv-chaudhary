@@ -33,7 +33,7 @@ const Navbar = () => {
               {/* Email */}
               <a
                 className="text-foreground grid size-9 place-content-center rounded-full border border-black/10 bg-accent p-2 transition-all hover:bg-accent/60 dark:border-white/10"
-                href="mailto:aymanechakar03@gmail.com"
+                href="mailto:sanjivchaudhary416@gmail.com"
                 aria-label="Email"
               >
                 <svg
@@ -57,7 +57,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="grid size-9 place-content-center rounded-full border border-black/10 bg-[#0b66c2] p-2 text-white transition-all hover:bg-[#0b66c2]/60 dark:border-white/10"
-                href="https://www.linkedin.com/in/ayman-echakar-825a39224"
+                href="https://www.linkedin.com/in/sanjiv-chaudhary-10866b198/"
                 aria-label="LinkedIn"
               >
                 <svg
@@ -82,7 +82,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="grid size-9 place-content-center rounded-full border border-black/30 bg-[#24292e] p-2 text-white transition-all hover:bg-[#24292e]/60 dark:border-white/10"
-                href="https://github.com/aymanch-03"
+                href="https://github.com/Sanjivchy"
                 aria-label="GitHub"
               >
                 <svg
@@ -102,7 +102,7 @@ const Navbar = () => {
             </div>
 
             {/* Resume Button */}
-            <a target="_blank" rel="noopener noreferrer" href="/AYMAN-ECHAKAR_RESUME.pdf">
+            <a target="_blank" rel="noopener noreferrer" href="/Sanjiv-Chaudhary.pdf">
               <button className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 group relative px-4 py-2 h-fit rounded-full bg-secondary text-foreground hover:bg-secondary/70">
                 Resume
                 <div className="w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 *:size-4 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-2 group-hover:opacity-100">

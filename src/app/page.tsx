@@ -12,6 +12,9 @@ export default function Home() {
         <Experiences />
         <Stacks />
       </div>
+      <div className="text-center my-20">
+        Still working on it, stay tuned 👀
+      </div>
     </section>
   );
 }
