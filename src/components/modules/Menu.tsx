@@ -16,7 +16,7 @@ function GooeyDemo() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="absolute bottom-6 z-50 right-12 h-12">
+    <div className="fixed bottom-6 z-50 right-12 h-12">
       <GooeyFilter id="gooey-filter-menu" strength={5} />
       <div
         style={{ filter: "url(#gooey-filter-menu)" }}
