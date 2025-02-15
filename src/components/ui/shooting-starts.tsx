@@ -59,7 +59,7 @@ export const ShootingStars: React.FC<ShootingStarsProps> = ({
     const createStar = () => {
       const { x, y, angle } = getRandomStartPoint();
       const newStar: ShootingStar = {
-        id: Date.now(),
+        id: Date.now() + Math.random(),
         x,
         y,
         angle,

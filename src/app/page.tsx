@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section className="min-h-screen">
       {/* <SplashCursor /> */}
-      <div className="pt-20 space-y-14">
+      <div className="pt-20 space-y-20">
         <AboutMe />
         <Experiences />
         <Stacks />

@@ -22,7 +22,6 @@ function GooeyDemo() {
         style={{ filter: "url(#gooey-filter-menu)" }}
       >
         {/* Menu Items */}
-        <AnimatePresence>
           {isOpen &&
             MENU_ITEMS.map((item, index) => {
               const Icon = item.icon
@@ -53,7 +52,6 @@ function GooeyDemo() {
                     bounce: 0,
                   }}
                 >
-                  <AnimatePresence mode="wait">
                     <motion.div
                       key={item.label}
                       initial={{ opacity: 0, filter: "blur(10px)" }}
@@ -73,18 +71,15 @@ function GooeyDemo() {
                         </Link>
                       </Button>
                     </motion.div>
-                  </AnimatePresence>
                 </motion.button>
               )
             })}
-        </AnimatePresence>
 
         {/* Main Menu Button */}
         <motion.button
           className="relative w-12 h-12 bg-[#efefef] rounded-full flex items-center justify-center"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <AnimatePresence mode="wait">
             {isOpen ? (
               <motion.div
                 key="close"
@@ -106,7 +101,6 @@ function GooeyDemo() {
                 <Menu className="w-5 h-5 text-black" />
               </motion.div>
             )}
-          </AnimatePresence>
         </motion.button>
       </div>
     </div>
