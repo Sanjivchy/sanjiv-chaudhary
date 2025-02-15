@@ -64,8 +64,8 @@ const ExperienceItem = ({ experience }: { experience: typeof experiences[0] }) =
         <span className="text-base max-[768px]:text-sm tracking-wide opacity-80">{experience.role}</span>
       </p>
       <ul className="w-full list-['-__'] text-pretty font-normal tracking-wider flex flex-col gap-2 max-[768px]:ml-4 max-[768px]:pr-4">
-        {experience.responsibilities.map((task, index) => (
-          <li key={index}>
+        {experience.responsibilities.map((task) => (
+          <li key={task}>
             <strong>{task}</strong>
           </li>
         ))}
