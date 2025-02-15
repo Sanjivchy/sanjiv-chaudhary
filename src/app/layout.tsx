@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from "@/components/modules/Navbar";
 import { AnimatePresence } from "framer-motion";
 import { ShootingStars } from "@/components/ui/shooting-starts";
-// import ThemeToggle from "@/components/ui/theme-toggle";
 export const metadata: Metadata = {
   title: "Sanjiv Chaudhary | Portfolio",
   description: "Sanjiv Chaudhary Portfolio",
@@ -25,7 +24,6 @@ export default function RootLayout({
         <AnimatePresence mode="wait">
           <main className="pt-24 relative z-10">
             <div className="max-w-5xl mx-auto px-4">
-              {/* <ThemeToggle />  */}
               <Navbar />
               {children}
             </div>
