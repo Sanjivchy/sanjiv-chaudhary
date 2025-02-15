@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from "@/components/modules/Navbar";
 import { AnimatePresence } from "framer-motion";
 import { ShootingStars } from "@/components/ui/shooting-starts";
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 export const metadata: Metadata = {
   title: "Sanjiv Chaudhary | Portfolio",
   description: "Sanjiv Chaudhary Portfolio",
@@ -30,6 +32,7 @@ export default function RootLayout({
           </main>
           <ShootingStars />
         </AnimatePresence>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
       </body>
     </html>
   );
